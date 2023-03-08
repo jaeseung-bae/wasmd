@@ -1,4 +1,4 @@
-module github.com/line/wasmd
+module github.com/jaeseung-bae/wasmd
 
 go 1.18
 
@@ -14,7 +14,8 @@ require (
 	github.com/line/ibc-go/v3 v3.3.2-0.20230210040007-d855e1d87f26
 	github.com/line/lbm-sdk v0.46.1-0.20230209105703-b88647308597
 	github.com/line/ostracon v1.0.9-0.20230209043112-5aca894db3a6
-	github.com/line/wasmvm v1.1.1-0.11.0.0.20230113085344-89650a7edd05
+	github.com/line/wasmd v0.0.0-20230217063243-577e45074b4b
+	github.com/line/wasmvm v1.1.1-0.11.1
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.14.0
 	github.com/rakyll/statik v0.1.7
@@ -97,7 +98,7 @@ require (
 	github.com/minio/highwayhash v1.0.2 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/mtibben/percent v0.2.1 // indirect
-	github.com/onsi/ginkgo v1.16.4 // indirect
+	github.com/nxadm/tail v1.4.8 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.6 // indirect
 	github.com/petermattis/goid v0.0.0-20180202154549-b0b1615b78e5 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
